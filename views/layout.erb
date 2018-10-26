@@ -2,16 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>YouTube</title>
   </head>
   <body>
     <link rel="stylesheet" href="stylesheet.css">
     <%= erb(:'partials/navigation', :layout => false) %>
     <%# template content would be injected here %>
     <%= yield %>
-    <footer>
-      <a align="left" href="https://www.youtube.com/results?search_query=one+direction">More Videos</a>
-      <p align="right"> Created by Keerat Lalia.</p>
-    </footer>
+    <%= erb(:'partials/footer', :layout => false) %>
   </body>
 </html>

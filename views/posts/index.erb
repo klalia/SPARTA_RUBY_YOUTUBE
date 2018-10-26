@@ -1,7 +1,6 @@
-
-    <h1 align="center">Videos</h1>
-    <% @posts.each do |posts| %>
-    <div align="center">
-      <h2><a href="/<%= posts[:id]%>"><%= posts[:title]%></a></h2>
-    </div>
-    <% end %>
+<h1 align="center">Videos</h1>
+<% @posts.each do |posts| %>
+<div align="center">
+  <h3><a href="/<%= posts[:id]%>"><%= posts[:title]%></a></h3><br>
+</div>
+<% end %>

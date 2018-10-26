@@ -1,12 +1,26 @@
+body{
+  background-color: #D6D9DB;
+}
 nav{
-  background-color: lightgrey;
+  background-color: #91999F;
 }
 footer{
-  background-color: lightgrey;
+  background-color: #91999F;
 }
 .video{
-  width:50%;
-  height:50%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 32%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 5%;
 }
