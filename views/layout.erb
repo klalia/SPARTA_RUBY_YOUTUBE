@@ -7,7 +7,6 @@
   <body>
     <link rel="stylesheet" href="stylesheet.css">
     <%= erb(:'partials/navigation', :layout => false) %>
-    <%# template content would be injected here %>
     <%= yield %>
     <%= erb(:'partials/footer', :layout => false) %>
   </body>
