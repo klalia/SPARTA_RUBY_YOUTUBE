@@ -15,7 +15,7 @@ means it is booted by rackup. The config.ru file is used for configuring the rac
 
 ### MVC (Model View Controller)
 
-The MVC model is used for developing interfaces, dividing an application into three parts. The model deals with the database and whatever data storage is included (for example SQL). This page has no data storage therefore there is no model. The view is the user interface, this includes the templates so what the user will see in the browser. This is the pages and partials included in this page. The controller is where the url is looked at and it is decided what is going to be loaded (the method), the model is also responsible for connecting with the model and view.
+The MVC model is used for developing interfaces, dividing an application into three parts. The model deals with the database and whatever data storage is included (for example SQL). This page has no data storage therefore there is no model. The view is the user interface, this includes the templates so what the user will see in the browser. This is the pages and partials included in this page. The controller is where the url is looked at and it is decided what is going to be loaded (the method), it is also responsible for connecting with the model and view.
 
 ### Restful Routes
 
